@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+}
+
+.portada img {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    transform: scale(1.5,1.5);
+    z-index: -2;
+}
+
+.titulo {
+    color: rgb(19, 2, 2);
+    font-family: 'PT Sans', sans-serif;  
+    background-color: rgba(255, 255, 255, 0.388);
+    padding: .5rem;
+
+}
+
+.anuncio-bloque {
+    position: absolute;
+    top: 20%;
+    left: 2%;
+    background-color: rgba(74, 73, 73, 0.654);
+    width: 35%;
+    height: 60%;
+    border-radius: 10%;
+}
+
+.anuncio-titulo {
+    text-align: center;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.anuncio-contenido {
+    text-align: left;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    padding: .2rem;
+    margin: .2rem;
+    background-color: rgba(0, 0, 0, 0.418);
+}
+
+.anuncio-contenido a {
+    color: rgb(127, 191, 192);
+}
+
+.boton-entrar {
+    position: absolute;
+    top: 60%;
+    left: 65%;
+    cursor: pointer;
+    background-color: white;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    padding-top: .1rem;
+    font-family: 'PT Sans', sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    user-select: none;
+}
+
+.boton-entrar:hover {
+    background-color: rgb(153, 150, 150);
+    box-shadow: 5px 5px;
+}
+
+.boton-informacion {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    cursor: pointer;
+    background-color: white;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    padding-top: .1rem;
+    font-family: 'PT Sans', sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    user-select: none;
+}
+
+.boton-informacion:hover {
+    background-color: rgb(153, 150, 150);
+    box-shadow: 5px 5px;
+}
+.boton-simposium{
+    position: absolute;
+    top: 60%;
+    left: 77%;
+    cursor: pointer;
+    background-color: white;
+    width: 15rem;
+    height: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    padding-top: .1rem;
+    font-family: 'PT Sans', sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    user-select: none;
+}

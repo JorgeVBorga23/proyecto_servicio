@@ -1,0 +1,29 @@
+<video autoplay muted (ended)= mostrarContenido()
+    src="../../assets/videos/aula1-entrando.mp4">No se puede reproducir el video</video>
+<div class="youtube"[style.visibility]= displayContenido>
+    <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/GX4V_Q3kr5M" title="YouTube video
+        player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+        encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="tituloyt" [style.visibility]= displayContenido>
+    <h1>Bienvenido a nuestra sala de eventos! <h2>En vivo</h2>
+    </h1>
+
+    <br>
+    <p><strong>En transcurso:</strong>
+        Recorrido virtual del Instituto
+        Tecnologico
+        de
+        Chetumal</p>
+
+    <p><strong>Horario:</strong> 8:00a.m - 10:00a.m</p>
+
+
+</div>
+<div class="botones" [style.visibility]= displayContenido>
+    <button routerLink="/sala1" class="boton-general boton-regresar-menu"
+        id="anexo">Regresar <i class="fa-solid fa-right-to-bracket icon"></i></button>
+    <button routerLink="/entrada" class="boton-general boton-regresar-entrada"
+        id="anexo">Ir a Inicio <i class="fa-solid fa-right-to-bracket icon"></i></button>
+</div>

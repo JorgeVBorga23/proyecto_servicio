@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 105%;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    transform: scale(1.5,1.5);
+    z-index: -2;
+}
+.youtube{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+.tituloyt {
+    position: absolute;
+    top: 15%;
+    right: 10%;
+    background-color: rgb(0, 0, 0);
+    width: 30rem;
+    height: 20rem;
+    color: rgb(255, 254, 254);
+    padding: 1rem;
+}
+.tituloyt p {
+    color: rgb(255, 255, 255);
+}
+.tituloyt h2{
+    color: red;
+}
+p strong{
+    color: rgb(14, 149, 16);
+}
+.boton-general {
+    cursor: pointer;
+    width: 15rem;
+    height: 4rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+    background-color: rgb(251, 249, 249);
+    border-radius: 1rem;
+    user-select: none;
+    border-color: rgb(0, 0, 0);
+    border-width: .5rem;
+    border-style: double;
+    z-index: 3;
+}
+.boton-general:hover{
+    background-color: rgb(153, 150, 150);
+    box-shadow: 5px 5px;
+}
+.boton-regresar-menu{
+    position: absolute;
+    bottom: 17%;
+    right: 2%;
+}
+.boton-regresar-entrada{
+    position: absolute;
+    bottom: 5%;
+    right: 2%;
+}

@@ -1,0 +1,16 @@
+<video autoplay muted (ended)= mostrarContenido()
+    src="../../assets/videos/tec-entrada-reducido.mp4">No se puede reproducir el
+    video</video>
+<div [style.visibility]=displayContenido>
+    <button class="boton-general boton-anexo" id="anexo">Ir al Centro de
+        Informacion <i class="fa-solid fa-arrow-left icon"></i></button>
+    <button class="boton-general boton-audiovisual" id="audiovisual">Ir a Sala
+        Audivisual <i class="fa-solid fa-arrow-right icon "></i></button>
+    <button routerLink="/sala1" class="boton-general boton-sala1" id="regresar">Ir
+        a Sala 1 Desarrollo Academico <i
+            class="fa-solid fa-arrow-left icon"></i></button>
+    <button routerLink="/entrada" class="boton-general boton-regresar"
+        id="regresar">Regresar a la
+        entrada <i class="fa-solid fa-arrow-rotate-left icon"></i></button>
+    <button class="post">.</button>
+</div>

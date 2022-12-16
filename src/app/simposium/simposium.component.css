@@ -1,0 +1,89 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.imagen{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   
+}
+.boton-anexo {
+    position: absolute;
+    top: 20%;
+    right: 34%;
+    z-index: 3;
+}
+
+.icon {
+    font-size: 2rem;
+}
+
+.boton-audiovisual {
+    position: absolute;
+    top: 40%;
+    right: 15%;
+    z-index: 3;
+}
+
+.post {
+    background-color: black;
+    width: 1.5rem;
+    height: 80%;
+    z-index: 2;
+    position: fixed;
+    bottom: 0;
+    right: 35%;
+    border-radius: 10px 10px 0 0;
+    z-index: 2;
+}
+
+.boton-regresar {
+    position: absolute;
+    top: 80%;
+    right: 15%;
+    z-index: 3;
+}
+.boton-sala1{
+
+    position: absolute;
+    top: 60%;
+    right: 34%;
+    z-index: 3;
+}
+
+.boton-general {
+    cursor: pointer;
+    width: 20rem;
+    height: 5rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+    background-color: rgb(251, 249, 249);
+    border-radius: 1rem;
+    user-select: none;
+    border-color: rgb(0, 0, 0);
+    border-width: .5rem;
+    border-style: double;
+}
+
+.boton-sala1:hover{
+    background-color: rgb(153, 150, 150);
+    box-shadow: 5px 5px;
+}
+.boton-anexo:hover {
+    background-color: rgb(153, 150, 150);
+    box-shadow: 5px 5px;
+}
+
+.boton-audiovisual:hover {
+    background-color: rgb(153, 150, 150);
+    box-shadow: 5px 5px;
+}
+
+.boton-regresar:hover {
+    background-color: rgb(153, 150, 150);
+    box-shadow: 5px 5px;
+}

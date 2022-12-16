@@ -1,0 +1,27 @@
+
+
+<div [style.display]=displayContenido>
+    <img class="mapa" src="../../assets/img/mapa-itch.jpg" alt="Mapa">
+    <a href="/simposium">
+        <button class="boton-simposium">
+            Congresos y Simposium 
+        </button>
+    </a>
+    <button routerLink="/recorrido/cafeteria" class="btn-cafeteria btn btn-warning"><p class="texto">Cafeteria</p></button>
+    <button routerLink="/recorrido/centro-computo" class="btn-computo btn btn-warning"><p class="texto">C. Computo</p></button>
+    <button routerLink="/recorrido/electrica" class="btn-electrica btn btn-warning"><p class="texto">Electrica</p></button>
+    <button routerLink="/recorrido/desarrollo" class="btn-desarrollo btn btn-warning"><p class="texto">Sala 1 DA</p></button>
+    <button routerLink="/recorrido/centro-idiomas" class="btn-idiomas btn btn-warning"><p class="texto">C. Idiomas</p></button>
+    <button routerLink="/recorrido/direccion" class="btn-direccion btn btn-warning"><p class="texto">Direccion</p></button>
+    <button routerLink="/recorrido/edificio-v" class="btn-edificio-v btn btn-warning"><p class="texto">Edificio V</p></button>
+    <button routerLink="/recorrido/edificio-w" class="btn-edificio-w btn btn-warning"><p class="texto">Edificio W</p></button>
+    <button routerLink="/recorrido/incubadora" class="btn-incubadora btn btn-warning"><p class="texto">Incubadora</p></button>
+    <button routerLink="/recorrido/lab-economico" class="btn-lab-economico btn btn-warning"><p class="texto">Lab. Economico</p></button>
+    <a href="/entrada"><button class="btn-regresar btn btn-primary">Regresar</button></a>
+</div>
+
+<div [style.display]="displayVideo">
+    <video class="video-container" id="video" (ended)="mostrarContenido()"
+        autoplay src="../../assets/videos/tec-entrada-reducido.mp4"
+        muted="true"></video>
+</div>
